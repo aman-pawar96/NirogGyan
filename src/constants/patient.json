@@ -1,0 +1,80 @@
+{
+    "patientName":"Aman Pawar",
+    "DOB":"22-07-1996",
+    "DOI":"21-07-2021",
+    "Medication":[
+        {
+            "type":"tablet",
+            "name":"Ibuprofen 600mg tablet",
+            "reason":"For treatement of lower back pain",
+            "sideEffects":[
+                "Headache",
+                "Dizziness"
+            ],
+            "medicalHelp":"Experiencing chest pain, shortness of breath and rapid weight gain",
+            "notes":{
+                "heading":"1 tablet by mouth 4 time a day with food every 4 hours"
+            },
+            "dose":[
+                {
+                    "time":"8:00 AM",
+                    "amount":1
+                },
+                {
+                    "time":"12:00 PM",
+                    "amount":1
+                },
+                {
+                    "time":"4:00 AM",
+                    "amount":1
+                },
+                {
+                    "time":"8:00 PM",
+                    "amount":1
+                }
+            ]
+        },
+        {
+            "type":"injection",
+            "name":"Insulin, Glargine, Human 100 UNT/ML INJ",
+            "reason":"Reduced blood pressure",
+            "sideEffects":[
+                "Headache",
+                "Fatigue",
+                "Nausea"
+            ],
+            "medicalHelp":"Experiencing itching skin wheezing and fast heart rate.",
+            "notes":{
+                "heading":"1 injection at bedtime",
+                "des":"Inject 10 ml vial under the skin as directed for 28 days, inject 25 units under the skin at Bedtim. Do not mix with other insulins/discard open vials after 28 days."
+            },
+            "dose":[
+                {
+                    "time":"BedTime",
+                    "amount":1
+                }
+            ]
+        },
+        {
+            "type":"capsule",
+            "name":"Terazosin HCL 2MG Capsule",
+            "reason":"For treatment of symptomps of an enlarged prostate.",
+            "sideEffects":[
+                "Headache",
+                "Dizziness",
+                "Headache",
+                "Loss of appetite",
+                "Fatigue"
+            ],
+            "notes":{
+                "heading":"1 injection at bedtime"
+            },
+            "dose":[
+                {
+                    "time":"BedTime",
+                    "amount":3
+                }
+            ]
+        }
+    ]
+}
